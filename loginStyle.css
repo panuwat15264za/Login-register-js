@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Quintessential&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+fieldset {
+    background-color: white;
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    text-align: center;
+    margin: 150px;
+    padding-top: 20px;
+}
+
+fieldset span1 {
+    color: red;
+    font-size: 20px;
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+}
+
+.Register {
+    border-radius: 20px;
+}
+
+.buttonStyle1 {    
+    border-radius: 10px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+
+    color: white;
+    background-color: rgb(47, 162, 255);
+}
+.buttonStyle1:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0,0,0,0.75);
+}
+
+.buttonStyle2 {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+
+
+    color: white;
+    background-color: rgb(212, 0, 0);
+}
+.buttonStyle2:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0,0,0,0.75);
+}
+
+.buttonStyle3 {
+    display: flex;
+    border-radius: 10px;
+    border: 0;
+    width: 315px;
+    height: 30px;
+
+    align-items: center;
+    font-style: 20px;
+    text-align: center;
+    margin: auto;
+    justify-content:center;
+
+
+    color: white;
+    background-color: rgb(173, 0, 130);
+}
+.buttonStyle3:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0,0,0,0.75);
+}
